@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'NEO';
+    src: url('fonts/Neo Sans Std Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'VOLVO-REGULAR';
+    src: url('fonts/Neo Sans Std Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body, h1, h2{
+	font-family: "NEO";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar-brand {
+    padding: 00px;
+}
+
+.navbar-brand img{
+    width: 190px;
+    height: auto;
+    margin-top: 00px;   
+    
+    margin-right: auto;
+    position: relative;
+    float: left;    
+}
+
+.navbar-default {
+	background-color: #ffc905; 
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    text-transform: uppercase;
+    font-family: "NEO";
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li:hover {
+    background-color: #ffb005;
+    text-transform: uppercase;
+    font-family: "NEO";
+    font-weight: bold;
+}
+
+
+
+#main-slider {
+    position: relative;
+}
+
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-control.left {
+  background-image: none;
+  }
+
+  .carousel-control.right {
+  background-image: none;
+  }
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-inner{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .carousel-holder {
+    margin-bottom: 00px;
+  }
+
+  .carousel-control,.item {
+    border-radius: 4px;
+  }
+
+.content-contato{
+	color: #fff;
+	margin-top: 70px;
+	height: 500px;
+}
+
+.img-noticias img {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+.content {
+	color: #fff;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.content p {
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.content img {
+	width: 370px;
+	height: auto;
+}
+
+.thumb-seminovos {
+	margin-top: 0px;
+	margin-bottom: 00px;
+}
+
+.thumb-seminovos img {
+	width: 200px;
+	height: auto;
+}
+
+ /*PAGINATION*/
+
+  ul.page-numbers{
+        list-style-type: none;
+    display: inline;
+  }
+
+  ul.page-numbers > li > a, ul.page-numbers > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.428571429;
+    color: #000;
+    text-decoration: none;
+    background-color: #ffb005;
+    border: 1px solid #000;
+    margin-top: 20px;
+    font-family: 'NEO';
+
+  }
+
+  ul.page-numbers > li > a:hover {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.428571429;
+    color: #ffb005;
+    text-decoration: none;
+    background-color: #000;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    font-family: 'NEO';
+  }
+
+
+#services {
+	background-color: #000;
+}
+
+.media-body {
+	margin-bottom: 30px;
+	background-color: #000;
+}
+
+.media-body p{
+	color: #fff;
+}
+
+.media-heading-noticias {
+	margin: 0 0 5px;
+	font-size: 15px;
+
+}
+
+.media-heading {
+	margin: 0 0 5px;
+	text-transform: uppercase;
+}
+
+.emerald h3 {
+    color: #ffb005;
+    padding: 15px;
+}
+
+.titulo-seminovos {
+	color: #fff!important;
+    padding: 00px!important;
+    font-size: 15px;
+    width: 240px;
+    height: 20px;
+    margin-bottom: 30px;
+}
+
+.seminovos p{
+    color: #fff!important;
+    padding: 00px!important;	
+}
+
+.emerald h3 {
+    color: #ffb005;
+    padding: 15px;
+}
+
+.emerald h3:hover {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+span.glyphicon-chevron-right {
+	font-size: 20px;
+}
+
+footer {
+    background-color: #636466;
+	height: 100px;    
+}
+
+footer h1{
+    width: 100%;
+    font-family: "Calibri", "Lato";
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-size: 41px;
+    color: #cc1d1d;
+    margin-top: 00%;
+    margin-bottom: 03%;
+    position: relative;
+    float: left;
+}
+
+footer p{
+    font-family: "VOLVO-REGULAR";
+    width: 100%;
+	font-size: 09px;
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 10px;
+    float: left;
+}
+
+.bg-footer{
+	background-color: #636466; 
+}
+
+.volvo-financial{
+	width: 100%;
+	height: auto;
+	float: right;
+	margin-top: 20px;
+}
+
+.volvo-financial img{
+	width: 180px;
+	height: auto;
+	float: right;
+	margin-top: 20px;
+}
+
+.footer-text {
+	margin-left: 100px;
+}
+
+.footer-text p {
+	width: 150px;
+	float: left;
+	font-size: 12px;
+	margin-top: 27px;
+	margin-left: 00px;
+	text-align: left;
+
+}
+
+/*ESTILOS DO FORMULÁRIO DE CONTATO*/
+
+.btn-primary {
+    color: #000;
+    background-color: #ffc905;
+    border-color: #357ebd;
+}
+
+.btn-primary:hover {
+    color: #ffc905;
+    background-color: #000;
+    border-color: #357ebd;
+}
+
+/*FINAL ESTILOS DO FORMULÁRIO DE CONTATO*/
+
+
+
+}
