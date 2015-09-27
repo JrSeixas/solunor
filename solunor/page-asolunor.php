@@ -18,7 +18,7 @@ Template Name: A Solunor
                           
                                                   </div>
 
-                                                  <?php endwhile; // end of the loop. ?> 
+                                                  <?php endwhile; // end of the loooop. ?> 
 
                     </div>
 
